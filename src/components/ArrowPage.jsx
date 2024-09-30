@@ -31,7 +31,7 @@ const ArrowPage = () => {
           onClick={scrollToTop}
           className="bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-700 transition duration-300"
         >
-          <FaArrowAltCircleUp />
+          <FaArrowAltCircleUp className='text-xl'/>
         </button>
       )}
     </div>
