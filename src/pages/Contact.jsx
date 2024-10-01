@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='grid pb-0 md:grid-cols-2' id='contact'>
+    <div className='grid md:grid-cols-2 w-full' id='contact'>
         <div className="flex flex-col items-center justify-center min-h-8 bg-gray-100 p-6 flex-wrap">
         <div className="bg-white shadow-md rounded-lg p-8 max-w-md w-full">
             <h2 className='text-2xl font-bold mb-9 text-center'>My Details</h2>
