@@ -50,7 +50,7 @@ const Navbar = () => {
                 <a href="https://github.com/Girishmasade" target="_blank" className="hover:text-blue-900"><FaGithub/></a>
               </li>
               <li>
-                <a href="https://github.com/Girishmasade" target="_blank" className="hover:text-blue-900"><FaInstagram/></a>
+                <a href="https://www.instagram.com/girish_masade" target="_blank" className="hover:text-blue-900"><FaInstagram/></a>
               </li>
             </ul>
         </div>

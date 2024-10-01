@@ -3,7 +3,7 @@ import character from '../assets/man.png'
 import resume from '../assets/Girish Masade Resume.pdf'
 import { Link } from 'react-scroll'
 import toast from 'react-hot-toast'
-const downloadcv = () => toast('Form submited successfully', {style: {border: '1px solid black', background: 'rgb(17 24 39)', color: 'white'}});
+const downloadcv = () => toast('Cv Downloaded successfully', {style: {border: '1px solid black', background: 'rgb(17 24 39)', color: 'white'}});
 const HomeSection = () => {
   return (
     <div className="bg-gray-900 h-screen flex items-center justify-center" id="home">
