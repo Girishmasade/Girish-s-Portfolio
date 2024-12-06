@@ -1,6 +1,6 @@
 import React from "react";
 import character from '../assets/man.png'
-import resume from '../assets/Girish Masade Resume.pdf'
+import resume from '../assets/Girish Masade Web Development.pdf'
 import { Link } from 'react-scroll'
 import toast from 'react-hot-toast'
 const downloadcv = () => toast('Cv Downloaded successfully', {style: {border: '1px solid black', background: 'rgb(17 24 39)', color: 'white'}});
@@ -27,7 +27,7 @@ const HomeSection = () => {
         <a 
         onClick={downloadcv}
           href={resume} 
-          download={'Girish Masade Resume'}
+          download={'Girish Masade Web Development'}
           className="border-sky-900 border-2 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
           Download CV
         </a>
