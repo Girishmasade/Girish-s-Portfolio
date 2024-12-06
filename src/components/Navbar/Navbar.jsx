@@ -38,8 +38,8 @@ const Navbar = () => {
             background: colorBgContainer,
           }}
         >
-           <div className="flex flex-wrap gap-2 justify-end relative top-5 right-7">
-        <ul className="flex gap-4 text-2xl">
+           <div className="flex flex-wrap gap-2 justify-end relative top-5 md:right-7 right-4">
+        <ul className="flex md:gap-4 gap-2 md:text-2xl text-xl">
               <li>
                 <a href="https://www.facebook.com/girish.masade.9" target="_blank" className="hover:text-blue-900"><FaFacebook/></a>
               </li>

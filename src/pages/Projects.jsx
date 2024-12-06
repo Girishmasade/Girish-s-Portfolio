@@ -7,19 +7,18 @@ import Link from 'antd/es/typography/Link';
 const { Meta } = Card;
 const App = () => (
   <>
-  <h1 className='text-center pb-10 text-3xl font-bold text-white underline' id='projects'>Projects</h1>
-  <div className="flex justify-evenly flex-wrap gap-4 space-y-4">
+  <h1 className='text-center pb-10 md:text-4xl font-bold text-white underline' id='projects'>Projects</h1>
+  <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-3">
     {
       ProjectData.map((idx) => (
         <Card
         key={idx.id}
-        style={{
-          width: 500,
-        }}
+        className=' '
         cover={
           <img
             alt="example"
             src={idx.img}
+            className=''
           />
         }
         actions={[

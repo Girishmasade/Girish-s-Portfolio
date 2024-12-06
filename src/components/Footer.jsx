@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
         </div>
         <div className="pt-20 text-center text-lg">
-            <p>Copyright ©2024 All rights reserved | This template is made with  by Girish Masade</p>
+            <p>Copyright © 2024 Girish Masade. All rights reserved.</p>
         </div>
     </footer>
   );
