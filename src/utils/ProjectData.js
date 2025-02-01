@@ -31,4 +31,20 @@ export const ProjectData = [
     btn: "view project",
     href: 'https://github.com/Girishmasade/nextjs-auth-system'
   },
+  {
+    id: 5,
+    img: "/Projects/Credit-Card.png",
+    Des: "A Credit Card Information Project in React.js is a web application where users can enter, validate, and store credit card details securely. This project focuses on implementing a user-friendly interface, form validation, and secure data handling techniques.",
+    title: 'CardSculpt Project Reactjs',
+    btn: "view project",
+    href: 'https://github.com/Girishmasade/credit-card-project-/tree/8e6bf4dbe5b5de24b77ad384d7621728cf156487/Frontend'
+  },
+  {
+    id: 6,
+    img: "/Projects/Makeup-Studio.png",
+    Des: "A Makeup Studio Project in React.js is a web application designed for beauty salons and makeup artists to showcase their services, manage bookings, and engage with clients. This project provides an elegant and user-friendly interface with interactive features to enhance customer experience.",
+    title: 'Makeup Studio Project Reactjs',
+    btn: "view project",
+    href: 'https://github.com/Girishmasade/Makeup-Studio-Project-Reactjs.git'
+  },
 ];
